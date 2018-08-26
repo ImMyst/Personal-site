@@ -22,8 +22,8 @@
                     </nuxt-link>
                 </li>
                 <li class="nav-item">
-                    <nuxt-link to="/articles" class="nav-link">
-                        Articles
+                    <nuxt-link to="/blog" class="nav-link">
+                        Blog
                     </nuxt-link>
                 </li>
                 <li class="nav-item">
