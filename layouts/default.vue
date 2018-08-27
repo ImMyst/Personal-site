@@ -33,13 +33,15 @@ body {
   color: #fff;
   line-height: 1.5;
   height: 100%;
-  font-family: 'Open Sans',sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   section {
     padding: 4rem;
   }
 }
 
 .lg-heading {
+  font-family: 'Imprima', sans-serif;
   font-size: 4.5rem;
   margin: 0;
 }
