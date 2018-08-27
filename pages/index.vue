@@ -1,6 +1,6 @@
 <template>
   <section id="home">
-    <h1 class="lg-heading animated fadeInUp">Titouan <span class="text-secondary">Galvani</span></h1>
+    <h1 class="lg-heading animated fadeInUp">Titouan <span class="text-secondary">GALVANI</span></h1>
     <h2 class="sm-heading animated fadeInUp">Développeur web
       <br>
       Étudiant en 3<sup>ème</sup> année à Ynov Lyon
