@@ -32,13 +32,15 @@ html, body {
 
 body {
   margin: 0;
-  padding: 0;
   background-color: #444;
   color: #fff;
   line-height: 1.5;
-  height: 100%;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+}
+
+section {
+  height: 100%;
 }
 
 // Headings
