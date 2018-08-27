@@ -13,32 +13,19 @@
           <i class="fab fa-github fa-2x"></i>
       </a>
     </div>
-    <footer id="home-footer">
-      <span>Fait avec
-          <i class="fas fa-heart"></i> par Titouan GALVANI ─
-          <a href="https://github.com/ImMyst/Portfolio" class="text-secondary" target="_blank">Code</a>
-      </span>
+      <footer id="home-footer">
+
     </footer>
-    <Footer />
   </main>
 </template>
 
 <script>
-import Footer from "@/components/Footer/Footer";
-
-export default {
-  components: {
-    Footer: Footer
-  }
-};
 </script>
 
 <style lang="scss">
   main {
     padding: 4rem;
-    min-height: 100%;
-    margin-top: -80px;
-    margin-bottom: -50px;
+    min-height: calc(100vh - 100px);
   .icons {
     margin-top: 1rem;
     a {
@@ -51,35 +38,6 @@ export default {
   }
   &#home {
     overflow: hidden;
-    h1 {
-      margin-top: 20vh;
-    }
   }
-}
-#home-footer {
-  text-align: center;
-  padding: 1rem;
-  height: 60px;
-  span {
-    background-color: #494949;
-    font-weight: 400;
-    i {
-      color: crimson;
-    }
-    a {
-      font-weight: 700;
-      text-decoration: none;
-      -webkit-box-shadow: inset 0 -2px #47bb76;
-              box-shadow: inset 0 -2px #47bb76;
-      transition: .3s ease-out;
-      &:hover {
-        background-color: #47bb76;
-        color: #000;
-      }
-    }
-  }
-}
-#main-footer {
-  display: none;
 }
 </style>

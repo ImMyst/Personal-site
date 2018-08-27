@@ -26,6 +26,10 @@ export default {
   }
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
