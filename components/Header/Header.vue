@@ -33,4 +33,16 @@
 </template>
 
 <style lang="scss" scoped>
+.menu-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+  .nav-item {
+    margin-left: 1rem;
+  }
+}
 </style>
