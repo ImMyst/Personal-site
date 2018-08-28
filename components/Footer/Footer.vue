@@ -13,7 +13,7 @@
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: darken(#444, 10);
+  background: #494949;
   color: #fff;
   height: 60px;
   span {
