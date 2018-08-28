@@ -34,8 +34,9 @@
 
 <style lang="scss" scoped>
 header {
+  padding: 1.25rem;
   position: absolute;
-  width: 100%;
+  margin-left: 1.5rem;
 }
 .menu-nav {
   margin: 0;
@@ -46,7 +47,17 @@ header {
   flex-direction: row;
 
   .nav-item {
-    margin-left: 1rem;
+    font-size: 1.25rem;
+  }
+  a {
+    padding: 1rem 1.5rem;
+    transition: .2s;
+    &:hover {
+      color: #47bb76;
+    }
+  }
+  .nuxt-link-exact-active {
+    color: #47bb76;
   }
 }
 </style>
