@@ -33,6 +33,10 @@
 </template>
 
 <style lang="scss" scoped>
+header {
+  position: absolute;
+  width: 100%;
+}
 .menu-nav {
   margin: 0;
   padding: 0;
