@@ -50,13 +50,15 @@ header {
     font-size: 1.25rem;
   }
   a {
-    padding: 1rem 1.5rem;
+    padding: 1.3rem 1.5rem;
     transition: .2s;
     &:hover {
       color: #47bb76;
+      box-shadow: inset 0 3px #47bb76;
     }
   }
   .nuxt-link-exact-active {
+    box-shadow: inset 0 3px #47bb76;
     color: #47bb76;
   }
 }
