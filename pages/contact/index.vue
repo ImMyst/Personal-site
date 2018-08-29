@@ -6,8 +6,8 @@
 </template>
 
 <style lang="scss" scoped>
-  #contact {
-    padding: 6rem 4rem 4rem 4rem;
-    min-height: calc(100vh - 60px);
-  }
+#contact {
+  padding: 6rem 4rem 4rem 4rem;
+  min-height: calc(100vh - 60px);
+}
 </style>
