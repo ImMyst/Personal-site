@@ -5,6 +5,16 @@
   </section>
 </template>
 
+<script>
+  export default {
+    head () {
+      return {
+        title: 'Titouan Galvani - A Propos'
+      }
+    }
+  }
+</script>
+
 <style lang="scss" scoped>
 #about {
   padding: 6rem 4rem 4rem 4rem;
