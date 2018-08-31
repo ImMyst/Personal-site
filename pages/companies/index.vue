@@ -5,6 +5,16 @@
   </section>
 </template>
 
+<script>
+  export default {
+    head () {
+      return {
+        title: 'Titouan Galvani - Entreprises'
+      }
+    }
+  }
+</script>
+
 <style lang="scss" scoped>
 #companies {
   padding: 6rem 4rem 4rem 4rem;

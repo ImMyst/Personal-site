@@ -5,6 +5,16 @@
   </section>
 </template>
 
+<script>
+  export default {
+    head () {
+      return {
+        title: 'Titouan Galvani - Blog'
+      }
+    }
+  }
+</script>
+
 <style lang="scss" scoped>
 #blog {
   padding: 6rem 4rem 4rem 4rem;
