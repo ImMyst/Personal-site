@@ -25,8 +25,25 @@
             <i class="fab fa-github fa-2x"></i>
         </a>
     </div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22356.032703886656!2d4.813180345705363!3d45.54018416251058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4e0816d93ef2b%3A0x408ab2ae4bb1b10!2s69560+Saint-Romain-en-Gal!5e0!3m2!1sfr!2sfr!4v1534196879190"
-        width="1000" height="450" frameborder="0" allowfullscreen></iframe>
+    <h2 class="sm-heading">Envoyer un message</h2>
+    <h3>Une idée, un conseil, une offre ... ?</h3>
+    <form name="contact" method="POST" netlify>
+      <div class="name field">
+          <input name="nom" type="text" placeholder="Nom complet *" required>
+      </div>
+      <div class="mail field">
+          <input name="email" type="email" placeholder="E-mail *" required>
+      </div>
+      <div class="phone field">
+          <input name="telephone" type="tel" placeholder="Téléphone *" required>
+      </div>
+      <div class="message field">
+          <textarea name="message" cols="30" rows="10" placeholder="Votre message"></textarea>
+      </div>
+      <div class="submit field">
+          <input type="submit" value="Envoyer">
+      </div>
+    </form>
   </section>
 </template>
 
@@ -74,14 +91,6 @@
         background: #47bb76;
       }
     }
-  }
-
-  iframe {
-    display: block;
-    margin-top: 5rem;
-    margin-left: auto;
-    margin-right: auto;
-    border: 2px solid #47bb76;
   }
 }
 </style>
