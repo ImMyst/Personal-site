@@ -4,18 +4,20 @@
     <h2 class="sm-heading">Comment me joindre ?</h2>
     <div class="boxes">
     <a href="mailto:titouan.galvani@ynov.com" target="_blank">
-        <div>
-            <span class="text-secondary">Email : </span>titouan.galvani@ynov.com
-        </div>
+      <div>
+          <span class="text-secondary">Email : </span>titouan.galvani@ynov.com
+      </div>
     </a>
     <a href="tel:0760093884" target="_blank">
-        <div>
-            <span class="text-secondary">Téléphone : </span>07.60.08.38.84
-        </div>
+      <div>
+          <span class="text-secondary">Téléphone : </span>07.60.08.38.84
+      </div>
     </a>
-    <div>
-        <span class="text-secondary">Adresse : </span>69560 ─ Saint-Romain-en-Gal
-    </div>
+    <a href="https://www.google.com/maps/place/69560+Saint-Romain-en-Gal/@45.5401842,4.8131803,14z/data=!3m1!4b1!4m5!3m4!1s0x47f4e0816d93ef2b:0x408ab2ae4bb1b10!8m2!3d45.532569!4d4.862609" target="_blank">
+      <div>
+          <span class="text-secondary">Adresse : </span>69560 ─ Saint-Romain-en-Gal
+      </div>
+    </a>
     </div>
     <div class="boxes-icons">
         <a href="https://www.linkedin.com/in/titouan-galvani/" target="_blank">
