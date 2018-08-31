@@ -34,5 +34,54 @@
 #contact {
   padding: 6rem 4rem 4rem 4rem;
   min-height: calc(100vh - 60px);
+    .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    div {
+      font-size: 1.25rem;
+      border: 2px solid #fff;
+      padding: 1.5rem 2.5rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      transition: .3s;
+      &:hover {
+        padding: 0.5rem 1.5rem;
+        background: #47bb76;
+        color: #fff;
+        span {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .boxes-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    a {
+      font-size: 1.25rem;
+      border: 2px solid #fff;
+      padding: 1.5rem 1.5rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      transition: .3s;
+      &:hover {
+        padding: .5rem .5rem;
+        background: #47bb76;
+      }
+    }
+  }
+
+  iframe {
+    display: block;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #47bb76;
+  }
 }
 </style>
