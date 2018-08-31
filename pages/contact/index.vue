@@ -100,7 +100,41 @@
     text-align: center;
     input,
     textarea {
-      width: 35%;
+      background-color: #727171;
+      font-size: 1rem;
+      color: white;
+      border: 0.5px solid white;
+      width: 50%;
+      padding: .75rem;
+      margin-top: 5px;
+      font-family: inherit;
+      outline-color: #47bb76;
+    }
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus
+    textarea:-webkit-autofill,
+    textarea:-webkit-autofill:hover,
+    textarea:-webkit-autofill:focus {
+      -webkit-box-shadow: 0 0 0px 1000px #585858 inset;
+      -webkit-text-fill-color: #fff;
+
+    }
+    input[type=submit] {
+      text-transform: uppercase;
+      font-size: 1.25rem;
+      color: lighten(#47bb76, 3);
+      font-weight: 600;
+      cursor: pointer;
+      transition: .3s;
+      &:hover {
+        background-color: lighten(#47bb76, 3);
+        color: #fff;
+      }
+    }
+    ::placeholder {
+      color: #47bb76;
+      opacity: 1;
     }
   }
 }
