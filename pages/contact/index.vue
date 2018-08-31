@@ -92,5 +92,16 @@
       }
     }
   }
+  h3 {
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+  }
+  form {
+    text-align: center;
+    input,
+    textarea {
+      width: 35%;
+    }
+  }
 }
 </style>
