@@ -61,6 +61,7 @@
     div {
       font-size: 1.25rem;
       border: 2px solid #fff;
+      border-radius: 4px;
       padding: 1.5rem 2.5rem;
       margin-top: 2rem;
       margin-bottom: 1rem;
@@ -84,6 +85,7 @@
     a {
       font-size: 1.25rem;
       border: 2px solid #fff;
+      border-radius: 4px;
       padding: 1.5rem 1.5rem;
       margin-top: 2rem;
       margin-bottom: 1rem;
@@ -106,6 +108,7 @@
       font-size: 1rem;
       color: white;
       border: 0.5px solid white;
+      border-radius: 4px;
       width: 50%;
       padding: .75rem;
       margin-top: 5px;
