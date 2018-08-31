@@ -27,8 +27,7 @@
             <i class="fab fa-github fa-2x"></i>
         </a>
     </div>
-    <h2 class="sm-heading">Envoyer un message</h2>
-    <h3>Une idée, un conseil, une offre ... ?</h3>
+    <h2 class="sm-heading">Une idée, un conseil, une offre ... ?</h2>
     <form name="contact" method="POST" netlify>
       <div class="name field">
           <input name="nom" type="text" placeholder="Nom complet *" required>
@@ -48,6 +47,16 @@
     </form>
   </section>
 </template>
+
+<script>
+  export default {
+    head () {
+      return {
+        title: 'Titouan Galvani - Contact'
+      }
+    }
+  }
+</script>
 
 <style lang="scss" scoped>
 #contact {
@@ -82,6 +91,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 2rem;
     a {
       font-size: 1.25rem;
       border: 2px solid #fff;
@@ -96,11 +106,8 @@
       }
     }
   }
-  h3 {
-    margin-top: .5rem;
-    margin-bottom: 2rem;
-  }
   form {
+    margin-top: 2rem;
     text-align: center;
     input,
     textarea {
