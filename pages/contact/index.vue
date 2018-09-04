@@ -29,7 +29,7 @@
       </a>
     </div>
     <h2 class="sm-heading">Une idée, un conseil, une offre ... ?</h2>
-    <form name="contact" action="/contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+    <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
       <div class="name field">
         <input name="nom" type="text" placeholder="Nom complet *" required>
       </div>
