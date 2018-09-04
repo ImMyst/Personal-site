@@ -135,6 +135,7 @@
         margin-top: 5px;
         font-family: inherit;
         outline-color: #47bb76;
+        caret-color: #47bb76;
       }
 
       input:-webkit-autofill,
