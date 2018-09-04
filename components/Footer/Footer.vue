@@ -3,7 +3,7 @@
     &copy; Titouan GALVANI 2018 - All rights reserved &nbsp;&nbsp;─&nbsp;&nbsp;
     <span>Fait avec
       <i class="fas fa-heart"></i> par Titouan GALVANI -
-      <a href="https://github.com/ImMyst/Portfolio" class="text-secondary" target="_blank">Code</a>
+      <a href="https://github.com/ImMyst/Portfolio-v2" class="text-secondary" target="_blank">Code</a>
     </span>
   </footer>
 </template>
