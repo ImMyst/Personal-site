@@ -59,6 +59,9 @@ import PostPreview from "@/components/Blog/PostPreview"
   #blog {
     padding: 6rem 4rem 4rem 4rem;
     min-height: calc(100vh - 60px);
+    .sm-heading {
+      margin-bottom: 2rem;
+    }
   }
 
 </style>
