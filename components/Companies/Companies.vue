@@ -1,5 +1,5 @@
 <template>
-<div class="company">
+  <div class="company">
     <div class="content">
       <h2>{{ company }}</h2>
       <a :href="link" target="_blank" class="content__link">
@@ -9,7 +9,7 @@
       <span>{{ location }}</span>
       <p>{{ content }}</p>
     </div>
-</div>
+  </div>
 </template>
 
 <script>
