@@ -3,7 +3,11 @@
     <h1 class="lg-heading">Mes <span class="text-secondary">Articles</span></h1>
     <h2 class="sm-heading">Mon ressenti sur mes expériences</h2>
     <PostPreview
-    v-for="post in posts" :key="post.id" :title= "post.title" :summary = "post.summary" :id= "post.id"
+    v-for= "post in posts"
+    :key= "post.id"
+    :title= "post.title"
+    :summary = "post.summary"
+    :id= "post.id"
     />
   </section>
 </template>
