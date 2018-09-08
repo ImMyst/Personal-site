@@ -60,6 +60,7 @@ h5 {
     margin: 0;
     padding: .2rem 1rem;
     background: #494949;
+    border-radius: 4px;
   }
 }
 

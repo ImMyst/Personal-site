@@ -61,6 +61,7 @@ export default {
     background: lighten(#444, 5);
     border-bottom: #47bb76 5px solid;
     margin-bottom: 1rem;
+    border-radius: 4px;
 
     &__link {
       overflow: hidden;

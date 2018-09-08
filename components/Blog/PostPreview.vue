@@ -40,6 +40,7 @@ export default {
     padding: 1.25rem 2.25rem;
     border-bottom: #47bb76 5px solid;
     margin-bottom: 1rem;
+    border-radius: 4px;
   }
   .btn {
     text-align: center;
@@ -49,6 +50,7 @@ export default {
     text-transform: uppercase;
     border: 2px solid #47bb76;
     transition: .3s;
+    border-radius: 4px;
   }
   .read-more:hover {
     background-color: #47bb76;
