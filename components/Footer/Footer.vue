@@ -1,6 +1,6 @@
 <template>
   <footer id="main-footer">
-    &copy; Titouan GALVANI 2018 - All rights reserved &nbsp;&nbsp;─&nbsp;&nbsp;
+    <span>&copy; Titouan GALVANI 2018 - All rights reserved &nbsp;&nbsp;─&nbsp;&nbsp;</span>
     <span>Fait avec
       <i class="fas fa-heart"></i> par Titouan GALVANI -
       <a href="https://github.com/ImMyst/Portfolio-v2" class="text-secondary" target="_blank">Code</a>
@@ -12,10 +12,10 @@
 
 #main-footer {
   text-align: center;
-  padding: 1rem;
+  padding: 0.3rem;
   background: #494949;
   color: #fff;
-  height: 60px;
+  height: 30px;
   span {
     font-weight: 400;
     i {

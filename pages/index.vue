@@ -40,7 +40,7 @@
     }
   #home {
     padding: 4rem;
-    min-height: calc(100vh - 60px);
+    min-height: calc(100vh - 30px);
     z-index: 2;
     .lg-heading {
       margin-top: 10rem;
