@@ -18,7 +18,7 @@
 <style lang="scss" scoped>
 #about {
   padding: 6rem 4rem 4rem 4rem;
-  min-height: calc(100vh - 60px);
+  min-height: calc(100vh - 30px);
 }
 </style>
 

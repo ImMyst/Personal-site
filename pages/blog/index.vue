@@ -62,7 +62,7 @@ import PostPreview from "@/components/Blog/PostPreview"
 <style lang="scss" scoped>
   #blog {
     padding: 6rem 4rem 4rem 4rem;
-    min-height: calc(100vh - 60px);
+    min-height: calc(100vh - 30px);
     .sm-heading {
       margin-bottom: 2rem;
     }
