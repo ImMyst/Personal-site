@@ -1,12 +1,12 @@
 <template>
   <div id=bg-img>
     <section id="home">
-      <h1 class="lg-heading animated fadeInUp">Titouan <span class="text-secondary">GALVANI</span></h1>
-      <h2 class="sm-heading animated fadeInUp">Développeur web en recherche d'alternance
+      <h1 class="lg-heading">Titouan <span class="text-secondary">GALVANI</span></h1>
+      <h2 class="sm-heading">Développeur web en recherche d'alternance
         <br>
         Étudiant en 3<sup>ème</sup> année à Ynov Lyon
       </h2>
-      <div class="icons animated fadeInUp">
+      <div class="icons">
         <a href="https://www.linkedin.com/in/titouan-galvani/" target="_blank">
           <i class="fab fa-linkedin fa-2x"></i>
         </a>
