@@ -2,7 +2,7 @@
   <header>
     <nav class="menu">
       <ul class="menu-nav">
-          <li class="nav-item current">
+          <li class="nav-item">
               <nuxt-link to="/" class="nav-link">
                   Accueil
               </nuxt-link>

@@ -14,7 +14,9 @@ export default {
   components: {
     Header: Header,
     Footer: Footer
-  }
+  },
+  transition: 'bounce'
+
 };
 </script>
 
