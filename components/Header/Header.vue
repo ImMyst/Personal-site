@@ -36,7 +36,8 @@
 header {
   padding: 1.25rem;
   position: absolute;
-  margin-left: 1.5rem;
+  // background: #none;
+  width: 100%;
 }
 .menu-nav {
   margin: 0;
@@ -48,6 +49,7 @@ header {
 
   .nav-item {
     font-size: 1.25rem;
+    text-transform: lowercase;
   }
   a {
     padding: 1.335rem 1.5rem;

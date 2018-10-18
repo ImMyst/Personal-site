@@ -15,9 +15,7 @@ export default {
     Header: Header,
     Footer: Footer
   },
-  transition: 'bounce'
-
-};
+}
 </script>
 
 <style lang="scss">
@@ -37,7 +35,7 @@ body {
   background-color: #444;
   color: #fff;
   line-height: 1.5;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-weight: 400;
 }
 
@@ -63,6 +61,7 @@ h5 {
     padding: .2rem 1rem;
     background: #494949;
     border-radius: 4px;
+    font-weight: 400;
   }
 }
 

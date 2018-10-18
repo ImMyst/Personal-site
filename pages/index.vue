@@ -1,21 +1,19 @@
 <template>
-  <div id=bg-img>
-    <section id="home">
-      <h1 class="lg-heading">Titouan <span class="text-secondary">GALVANI</span></h1>
-      <h2 class="sm-heading">Développeur web en recherche d'alternance
-        <br>
-        Étudiant en 3<sup>ème</sup> année à Ynov Lyon
-      </h2>
-      <div class="icons">
-        <a href="https://www.linkedin.com/in/titouan-galvani/" target="_blank">
-          <i class="fab fa-linkedin fa-2x"></i>
-        </a>
-        <a href="https://github.com/ImMyst" target="_blank">
-          <i class="fab fa-github fa-2x"></i>
-        </a>
-      </div>
-    </section>
-  </div>
+  <section id="home" class="bg-img">
+    <h1 class="lg-heading">Titouan <span class="text-secondary">GALVANI</span></h1>
+    <h2 class="sm-heading">Développeur web en recherche d'alternance
+      <br>
+      Étudiant en 3<sup>ème</sup> année à Ynov Lyon
+    </h2>
+    <div class="icons">
+      <a href="https://www.linkedin.com/in/titouan-galvani/" target="_blank">
+        <i class="fab fa-linkedin fa-2x"></i>
+      </a>
+      <a href="https://github.com/ImMyst" target="_blank">
+        <i class="fab fa-github fa-2x"></i>
+      </a>
+    </div>
+  </section>
 </template>
 
 <script>
@@ -23,7 +21,7 @@
 </script>
 
 <style lang="scss" scoped>
-#bg-img {
+.bg-img {
       background: url('~assets/img/home-image.jpg');
       background-attachment: fixed;
       background-size: cover;
@@ -37,7 +35,8 @@
         height: 100%;
         z-index: -2;
       }
-    }
+  }
+
   #home {
     padding: 4rem;
     min-height: calc(100vh - 30px);
