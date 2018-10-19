@@ -2,7 +2,7 @@
   <footer id="main-footer">
     <span>&copy; Titouan GALVANI 2018 - All rights reserved &nbsp;&nbsp;─&nbsp;&nbsp;</span>
     <span>Fait avec
-      <i class="fas fa-heart"></i> par Titouan GALVANI -
+      <i class="far fa-heart"></i> par Titouan GALVANI -
       <a href="https://github.com/ImMyst/Portfolio-v2" class="text-secondary" target="_blank">Code</a>
     </span>
   </footer>
@@ -16,6 +16,8 @@
   background: #494949;
   color: #fff;
   height: 30px;
+  box-shadow: 2px 0 4px 0 rgba(0, 0, 0, 0.2), 3px 0 10px 0 rgba(0, 0, 0, 0.19);
+
   span {
     font-weight: 400;
     i {
