@@ -128,7 +128,7 @@
         background-color: #727171;
         font-size: 1rem;
         color: white;
-        border: 0.5px solid white;
+        border: 0.5px solid #8b8b8b;
         border-radius: 4px;
         width: 50%;
         padding: .75rem;
@@ -136,6 +136,7 @@
         font-family: inherit;
         outline-color: #47bb76;
         caret-color: #47bb76;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
       }
 
       input:-webkit-autofill,

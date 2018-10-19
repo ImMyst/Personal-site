@@ -54,14 +54,19 @@ h5 {
     font-family: 'Imprima', sans-serif;
     font-size: 4.5rem;
     margin: 0;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
   }
   &.sm-heading {
+    width: 30%;
     margin-bottom: 2rem;
     margin: 0;
     padding: .2rem 1rem;
     background: #494949;
     border-radius: 4px;
     font-weight: 400;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+
+
   }
 }
 
