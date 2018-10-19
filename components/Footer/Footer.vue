@@ -18,6 +18,40 @@
   height: 30px;
   box-shadow: 2px 0 4px 0 rgba(0, 0, 0, 0.2), 3px 0 10px 0 rgba(0, 0, 0, 0.19);
 
+  .far {
+    cursor: pointer;
+    &:hover {
+      animation: heart .3s ease-in-out;
+    }
+  }
+
+  @keyframes heart {
+    0% {
+      transform: scale(1);
+      transform-origin: 0% 0%;
+    }
+    25% {
+      transform: scale(1.25);
+      transform-origin: 10% 10%;
+    }
+    44% {
+      transform: scale(1.5);
+      transform-origin: 50% 50%;
+    }
+    66% {
+      transform: scale(1.5);
+      transform-origin: 50% 50%;
+    }
+    75% {
+      transform: scale(1.25);
+      transform-origin: 10% 10%;
+    }
+    100% {
+      transform: scale(1);
+      transform-origin: 0% 0%;
+    }
+  }
+
   span {
     font-weight: 400;
     i {
