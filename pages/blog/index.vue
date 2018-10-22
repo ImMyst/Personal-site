@@ -38,6 +38,7 @@ import PostPreview from "@/components/Blog/PostPreview"
       ]
      }
     }
+
     // asyncData(context) {
     //   return context.app.$storyapi.get('cdn/stories/blog', {
     //     version: 'draft',
