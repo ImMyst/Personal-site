@@ -32,7 +32,7 @@ html, body {
 
 body {
   margin: 0;
-  background-color: #444;
+  background: #444;
   color: #fff;
   line-height: 1.5;
   font-family: 'Noto Sans', sans-serif;
