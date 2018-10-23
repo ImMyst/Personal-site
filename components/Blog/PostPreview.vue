@@ -71,6 +71,9 @@ export default {
       box-shadow: inset 0 -2px 0 0 #47bb76;
     }
   }
+  p {
+    line-height: 1.7;
+  }
 }
 </style>
 

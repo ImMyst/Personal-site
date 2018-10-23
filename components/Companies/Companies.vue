@@ -58,6 +58,7 @@ export default {
   .company-title, .company-description {
     font-family: 'Bitter', serif;
   }
+
   .content {
     padding: 1.25rem 2rem;
     margin-right: 1.5rem;
@@ -88,6 +89,7 @@ export default {
 
   p {
     text-align: justify;
+    line-height: 1.7;
   }
 }
 </style>
