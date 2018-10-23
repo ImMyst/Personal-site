@@ -1,11 +1,11 @@
 <template>
   <div class="company">
     <div class="content">
-      <h2>{{ company }}</h2>
+      <h2 class="company-title">{{ company }}</h2>
       <a :href="link" target="_blank" class="content__link">
         <img :src="logo" :alt="company" width="160" height="120">
       </a>
-      <h3>{{ description }}</h3>
+      <h3 class="company-description">{{ description }}</h3>
       <span>{{ location }}</span>
       <p>{{ content }}</p>
     </div>
@@ -55,6 +55,9 @@ export default {
   align-items: stretch;
   padding: 1.5rem 2.5rem;
 
+  .company-title, .company-description {
+    font-family: 'Bitter', serif;
+  }
   .content {
     padding: 1.25rem 2rem;
     margin-right: 1.5rem;
