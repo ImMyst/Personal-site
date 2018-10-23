@@ -1,13 +1,14 @@
 <template>
   <div class="company">
     <div class="content">
-      <h2>{{ company }}</h2>
+      <h2 class="company-title">{{ company }}</h2>
       <a :href="link" target="_blank" class="content__link">
         <img :src="logo" :alt="company" width="160" height="120">
       </a>
-      <h3>{{ description }}</h3>
+      <h3 class="company-description">{{ description }}</h3>
       <span>{{ location }}</span>
       <p>{{ content }}</p>
+      <p>{{ experience }}</p>
     </div>
   </div>
 </template>
@@ -39,6 +40,10 @@ export default {
       type: String,
       required: true
     },
+    experience: {
+      type: String,
+      required: true
+    },
     id: {
       type: String,
       required: true
@@ -54,6 +59,10 @@ export default {
   text-align: center;
   align-items: stretch;
   padding: 1.5rem 2.5rem;
+
+  .company-title, .company-description {
+    font-family: 'Bitter', serif;
+  }
 
   .content {
     padding: 1.25rem 2rem;
@@ -85,6 +94,12 @@ export default {
 
   p {
     text-align: justify;
+    line-height: 1.7;
+    margin-bottom: 0;
+    &:last-child {
+    margin-top: 0;
+    margin-bottom: 5px;
+    }
   }
 }
 </style>

@@ -62,13 +62,17 @@ export default {
     background-color: #50d78a;
   }
   .article-title {
+    font-family: 'Bitter', serif;
+    font-size: 1.33rem;
     a {
-      transition: .3s;
+      transition: .2s;
     }
     a:hover {
-      font-size: 20px;
       box-shadow: inset 0 -2px 0 0 #47bb76;
     }
+  }
+  p {
+    line-height: 1.7;
   }
 }
 </style>
