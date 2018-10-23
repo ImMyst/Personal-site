@@ -8,6 +8,7 @@
       <h3 class="company-description">{{ description }}</h3>
       <span>{{ location }}</span>
       <p>{{ content }}</p>
+      <p>{{ experience }}</p>
     </div>
   </div>
 </template>
@@ -36,6 +37,10 @@ export default {
       required: true
     },
     content: {
+      type: String,
+      required: true
+    },
+    experience: {
       type: String,
       required: true
     },
@@ -90,6 +95,11 @@ export default {
   p {
     text-align: justify;
     line-height: 1.7;
+    margin-bottom: 0;
+    &:last-child {
+    margin-top: 0;
+    margin-bottom: 5px;
+    }
   }
 }
 </style>
