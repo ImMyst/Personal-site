@@ -13,17 +13,17 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.3.3",
-    "nuxt": "^2.1.0",
+    "@nuxtjs/axios": "^5.3.4",
+    "nuxt": "^2.2.0",
     "storyblok-nuxt": "0.0.9"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "cross-env": "^5.2.0",
-    "eslint": "^5.6.1",
+    "eslint": "^5.8.0",
     "eslint-loader": "^2.1.1",
     "eslint-plugin-vue": "^4.7.1",
-    "node-sass": "^4.9.3",
+    "node-sass": "^4.9.4",
     "sass-loader": "^7.1.0"
   }
 }
