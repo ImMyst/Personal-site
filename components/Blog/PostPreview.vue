@@ -47,7 +47,7 @@ export default {
     text-align: center;
   }
   .read-more {
-    padding: 0.3rem;
+    padding: 0.5rem;
     text-transform: uppercase;
     border: 2px solid #47bb76;
     transition: .3s;
@@ -55,8 +55,6 @@ export default {
   }
   .read-more:hover {
     background-color: #47bb76;
-    padding: 0.5rem;
-    font-size: 17px !important;
   }
   .read-more:active {
     background-color: #50d78a;
