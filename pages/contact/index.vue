@@ -31,7 +31,7 @@
     <h2 class="sm-heading">Une idée, un conseil, une offre ... ?</h2>
     <form name="contact" action="" method="POST" data-netlify="true">
       <div class="name field">
-        <label for="nom"><input name="nom" type="text" placeholder="Nom complet *" required></label>
+        <label for="full-name"><input name="full-name" type="text" placeholder="Nom complet *" required></label>
       </div>
       <div class="mail field">
         <label for="email"><input name="email" type="email" placeholder="E-mail *" required></label>
