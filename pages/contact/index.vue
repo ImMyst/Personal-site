@@ -29,7 +29,7 @@
       </a>
     </div>
     <h2 class="sm-heading">Une idée, un conseil, une offre ... ?</h2>
-    <form name="contact" action="" method="POST" netlify>
+    <form name="contact" action="" method="POST" data-netlify="true">
       <div class="name field">
         <label for="nom"><input name="nom" type="text" placeholder="Nom complet *" required></label>
       </div>
