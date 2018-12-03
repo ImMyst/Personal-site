@@ -35,7 +35,7 @@ body {
   background: #444;
   color: #fff;
   line-height: 1.5;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
 
@@ -51,7 +51,7 @@ h4,
 h5 {
   margin: 0;
   &.lg-heading {
-    font-family: 'Imprima', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 4.5rem;
     margin: 0;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
