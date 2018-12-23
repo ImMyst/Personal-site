@@ -147,6 +147,7 @@
       input:-webkit-autofill:focus textarea:-webkit-autofill,
       textarea:-webkit-autofill:hover,
       textarea:-webkit-autofill:focus {
+        box-shadow: 0 0 0px 1000px #585858 inset;
         -webkit-box-shadow: 0 0 0px 1000px #585858 inset;
         -webkit-text-fill-color: #fff;
 
