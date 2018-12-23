@@ -34,7 +34,7 @@
       return {
         companies: [{
           company: "Webqam",
-          logo: "../../assets/img/logo-webqam.png",
+          logo: "~assets/img/logo-webqam.png",
           link: "https://www.webqam.fr/",
           description: "Agence web stéphanoise très sympatique composée de développeurs, infographistes et chefs de projets.",
           location: "15 Rue de la Presse, 42000 St-Etienne",
@@ -44,7 +44,7 @@
         },
         {
           company: "PSM Numeriks",
-          logo: "../../assets/img/logo-psm.png",
+          logo: "~assets/img/logo-psm.png",
           link: "http://www.numeriks.fr/",
           description: "Point de vente et réparation de produits éléctroniques avec des employés accuillants.",
           location: "12 Cours Romestang, 38200 Vienne",
