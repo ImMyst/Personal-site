@@ -29,15 +29,15 @@
       </a>
     </div>
     <h2 class="sm-heading">Une idée, un conseil, une offre ... ?</h2>
-    <form name="contact" action="POST" data-netlify="true">
+    <form name="contact" method="POST" data-netlify="true">
       <div class="name field">
-        <input name="full-name" type="text" placeholder="Nom complet *" required>
+        <input name="full-name" type="text" placeholder="Nom complet *">
       </div>
       <div class="mail field">
-        <input name="email" type="email" placeholder="E-mail *" required>
+        <input name="email" type="email" placeholder="E-mail *">
       </div>
       <div class="phone field">
-        <input name="phone" type="tel" placeholder="Téléphone *" required>
+        <input name="phone" type="tel" placeholder="Téléphone *">
       </div>
       <div class="message field">
         <textarea name="message" cols="30" rows="10" placeholder="Votre message"></textarea>
