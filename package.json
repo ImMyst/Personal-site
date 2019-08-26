@@ -18,7 +18,7 @@
     "storyblok-nuxt": "^1.0.1"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.2",
+    "babel-eslint": "^10.0.3",
     "cross-env": "^5.2.0",
     "eslint": "^5.16.0",
     "eslint-loader": "^2.2.1",
