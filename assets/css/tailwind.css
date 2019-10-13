@@ -1,3 +1,15 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+.gradient-background {
+  background: linear-gradient(
+    165deg,
+    rgba(53, 92, 125, 1) 0%,
+    rgba(53, 92, 125, 1) 35%,
+    rgba(108, 91, 123, 1) 90%
+  );
+}
+.text-shadow {
+  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
