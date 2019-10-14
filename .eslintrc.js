@@ -8,19 +8,16 @@ module.exports = {
     parser: 'babel-eslint'
   },
   extends: [
-    '@nuxtjs',
-    'prettier',
-    'prettier/vue',
-    'plugin:prettier/recommended',
-    'plugin:nuxt/recommended'
+    'eslint:recommended',
+    'plugin:vue/recommended',
+    '@nuxtjs'
   ],
   plugins: [
-    'prettier'
+    'vue'
   ],
   // add your custom rules here
   rules: {
     'vue/max-attributes-per-line': 'off',
-    'no-trailing-spaces': 'error',
-    'space-before-function-paren': ['error', 'always']
+    'no-trailing-spaces': 'error'
   }
 }

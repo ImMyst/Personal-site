@@ -20,12 +20,12 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       title: 'Titouan Galvani - Currently rebuilding my personal website'
     }
   },
-  head() {
+  head () {
     return {
       title: this.title,
       meta: [
