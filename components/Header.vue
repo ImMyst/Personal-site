@@ -1,9 +1,9 @@
 <template>
   <div class="fixed w-full">
     <div class="flex justify-between px-5 pt-4">
-      <button class="focus:outline-none focus:shadow-outline" to="/">
+      <nuxt-link class="focus:outline-none focus:shadow-outline" to="/">
         <Logo />
-      </button>
+      </nuxt-link>
       <button class="block px-1 focus:outline-none text-gray-400 hover:text-white" type="button" @click="isMenuOpen = !isMenuOpen">
         <BurgerMenu v-if="!isMenuOpen" />
         <Close v-else />
