@@ -4,19 +4,32 @@
       <nuxt-link class="focus:outline-none focus:shadow-outline" to="/">
         <Logo />
       </nuxt-link>
-      <button class="block px-1 focus:outline-none text-gray-400 hover:text-white" type="button" @click="$store.commit('toggleMenu')">
+      <button class="block px-1 focus:outline-none text-gray-400 hover:text-white z-10" type="button" @click="$store.commit('toggleMenu')">
         <BurgerMenu v-if="!$store.state.isMenuOpen" />
         <Close v-else />
       </button>
     </div>
-    <div class="gradient-background fixed w-full" :class="$store.state.isMenuOpen ? 'h-screen' : ''">
-      <ul v-if="$store.state.isMenuOpen" class="min-h-screen flex flex-col justify-center items-center text-center mx-auto text-gray-100 font-semibold text-4xl">
-        <li v-for="menu in headerLinks" :key="menu.name">
-          <nuxt-link class="hover:text-secondary-red focus:text-secondary-red focus:outline-none focus:shadow-outline cursor-pointer p-6 inline-block" :to="`${menu.link}`">
-            {{ menu.name }}
-          </nuxt-link>
-        </li>
-      </ul>
+    <div class="gradient-background fixed w-full">
+      <div v-if="$store.state.isMenuOpen" class="min-h-screen flex flex-col justify-center items-center text-center mx-auto -mt-16">
+        <ul class="text-gray-100 font-semibold text-4xl">
+          <li v-for="menu in headerLinks" :key="menu.name">
+            <nuxt-link class="hover:text-secondary-red focus:text-secondary-red focus:outline-none focus:shadow-outline cursor-pointer p-6 inline-block" :to="`${menu.link}`">
+              {{ menu.name }}
+            </nuxt-link>
+          </li>
+        </ul>
+        <div class="mt-10 text-gray-400 text-2xl">
+          <span class="cursor-pointer hover:text-gray-200">FR</span>
+          |
+          <span class="cursor-pointer hover:text-gray-200">EN</span>
+        </div>
+        <div class="fixed bottom-0 mb-6 text-gray-200">
+          <div>
+            &copy; 2020 Titouan Galvani.
+          </div>
+          <div>Tous droits réservés.</div>
+        </div>
+      </div>
     </div>
   </div>
 </template>

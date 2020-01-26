@@ -36,8 +36,8 @@ export default {
 
 <style scoped>
 .top-shadow {
-  -webkit-box-shadow: 0 -10px 20px rgba(0,0,0,0.19);
-  -moz-box-shadow: 0 -10px 20px rgba(0,0,0,0.19);
-    box-shadow: 0 -10px 20px rgba(0,0,0,0.15)
+  -webkit-box-shadow: 0 -6px 20px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0 -6px 20px rgba(0,0,0,0.15);
+    box-shadow: 0 -6px 20px rgba(0,0,0,0.15)
 }
 </style>
