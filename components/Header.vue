@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed top-0 w-full">
+  <div class="fixed top-0 w-full bg-primary-blue">
     <div class="flex justify-between px-5 pt-4">
       <nuxt-link class="focus:outline-none focus:shadow-outline" to="/">
         <Logo />
@@ -13,7 +13,7 @@
       <div v-if="$store.state.isMenuOpen" class="min-h-screen flex flex-col justify-center items-center text-center mx-auto -mt-16">
         <ul class="text-gray-100 font-semibold text-4xl">
           <li v-for="menu in headerLinks" :key="menu.name">
-            <nuxt-link class="hover:text-secondary-red focus:text-secondary-red focus:outline-none focus:shadow-outline cursor-pointer p-6 inline-block" :to="`${menu.link}`">
+            <nuxt-link class="hover:text-secondary-red focus:text-secondary-red focus:outline-none focus:shadow-outline cursor-pointer p-6 inline-block" :to="`${menu.link}`" @click.native="$store.commit('toggleMenu')">
               {{ menu.name }}
             </nuxt-link>
           </li>
