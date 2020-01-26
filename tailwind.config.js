@@ -18,6 +18,8 @@ module.exports = {
       }
     }
   },
-  variants: {},
+  variants: {
+    fill: ['responsive', 'hover', 'focus']
+  },
   plugins: []
 }

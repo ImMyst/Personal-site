@@ -1,5 +1,5 @@
 <template>
-  <div class="font-sans antialiased gradient-background">
+  <div class="font-sans antialiased gradient-background h-full">
     <Header />
     <nuxt />
     <Footer />

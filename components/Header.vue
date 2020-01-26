@@ -1,16 +1,16 @@
 <template>
-  <div class="fixed w-full">
+  <div class="fixed top-0 w-full">
     <div class="flex justify-between px-5 pt-4">
       <nuxt-link class="focus:outline-none focus:shadow-outline" to="/">
         <Logo />
       </nuxt-link>
-      <button class="block px-1 focus:outline-none text-gray-400 hover:text-white" type="button" @click="isMenuOpen = !isMenuOpen">
-        <BurgerMenu v-if="!isMenuOpen" />
+      <button class="block px-1 focus:outline-none text-gray-400 hover:text-white" type="button" @click="$store.commit('toggleMenu')">
+        <BurgerMenu v-if="!$store.state.isMenuOpen" />
         <Close v-else />
       </button>
     </div>
-    <div class="gradient-background fixed w-full">
-      <ul v-if="isMenuOpen" class="min-h-screen flex flex-col justify-center items-center text-center mx-auto text-gray-100 font-semibold text-4xl">
+    <div class="gradient-background fixed w-full" :class="$store.state.isMenuOpen ? 'h-screen' : ''">
+      <ul v-if="$store.state.isMenuOpen" class="min-h-screen flex flex-col justify-center items-center text-center mx-auto text-gray-100 font-semibold text-4xl">
         <li v-for="menu in headerLinks" :key="menu.name">
           <nuxt-link class="hover:text-secondary-red focus:text-secondary-red focus:outline-none focus:shadow-outline cursor-pointer p-6 inline-block" :to="`${menu.link}`">
             {{ menu.name }}
@@ -40,11 +40,11 @@ export default {
         },
         {
           name: 'a propos',
-          link: '/a-propos'
+          link: '/about'
         },
         {
           name: 'projets',
-          link: '/projets'
+          link: '/projects'
         },
         {
           name: 'contact',

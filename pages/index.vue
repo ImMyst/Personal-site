@@ -1,12 +1,15 @@
 <template>
   <div
-    class="min-h-screen flex justify-center items-center text-center mx-auto"
+    class="h-screen flex justify-center items-center text-center mx-auto"
   >
     <div class="block">
-      <h1 class="text-gray-100 text-6xl font-semibold leading-none text-shadow">
+      <div class="flex justify-center">
+        <img src="/img/titouan-image.jpg" alt="Titouan Galvani image" class="rounded-full border-2 border-solid border-accent-purple w-40">
+      </div>
+      <h1 class="text-gray-100 text-6xl font-semibold leading-none text-shadow pt-16">
         Titouan <span class="text-secondary-red">Galvani</span>
       </h1>
-      <div class="text-gray-300 text-3xl mt-6 leading-snug pt-8">
+      <div class="text-gray-300 text-3xl leading-snug pt-8 mt-6">
         <p>
           Développeur web
         </p>
@@ -15,8 +18,8 @@
         </p>
       </div>
       <div class="pt-24">
-        <nuxt-link to="/a-propos" class="inline-block py-1 border-solid border border-secondary-red rounded-full hover:bg-secondary-red">
-          <span class="px-4 text-gray-100 uppercase text-2xl font-semibold">Qui suis-je ?</span>
+        <nuxt-link to="/about" class="inline-block border border-solid border-secondary-red rounded-full py-1 hover:bg-secondary-red">
+          <span class="text-gray-100 uppercase text-2xl font-semibold px-4">Qui suis-je ?</span>
         </nuxt-link>
       </div>
     </div>
