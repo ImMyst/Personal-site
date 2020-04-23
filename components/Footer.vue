@@ -1,6 +1,6 @@
 <template>
   <div class="fixed bottom-0 h-16 w-full gradient-background top-shadow" :class="$store.state.isMenuOpen ? 'hidden' : ''">
-    <div class="flex h-full align-center items-center justify-around text-gray-100">
+    <div class="flex h-full items-center justify-around text-gray-100">
       <a href="https://github.com/ImMyst" target="_blank" class="p-4 hover:fill-current hover:text-secondary-red">
         <Github />
       </a>

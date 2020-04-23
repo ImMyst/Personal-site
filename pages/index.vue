@@ -17,7 +17,7 @@
           Front end
         </p>
       </div>
-      <div class="pt-24">
+      <div class="pt-12">
         <nuxt-link to="/about" class="inline-block border border-solid border-secondary-red rounded-full py-1 hover:bg-secondary-red">
           <span class="text-gray-100 uppercase text-2xl font-semibold px-4">Qui suis-je ?</span>
         </nuxt-link>

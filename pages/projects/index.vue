@@ -1,5 +1,7 @@
 <template>
-  <div class="h-screen flex justify-center items-center text-center mx-auto">
-    PROJECTS PAGE
+  <div class="h-full flex justify-center items-center text-center mx-auto">
+    <div class="block container">
+      PROJECTS PAGE
+    </div>
   </div>
 </template>

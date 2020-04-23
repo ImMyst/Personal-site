@@ -1,6 +1,6 @@
 <template>
-  <div class="fixed top-0 w-full bg-primary-blue">
-    <div class="flex justify-between px-5 pt-4">
+  <div class="fixed top-0 h-16 w-full bg-primary-blue bottom-shadow">
+    <div class="flex h-full justify-between px-5 items-center">
       <nuxt-link class="focus:outline-none focus:shadow-outline" to="/">
         <Logo />
       </nuxt-link>
@@ -71,6 +71,11 @@ export default {
 </script>
 
 <style scoped>
+.bottom-shadow {
+  -webkit-box-shadow: 0 -6px 20px rgba(0,0,0,0.15);
+  -moz-box-shadow: 0 -6px 20px rgba(0,0,0,0.15);
+    box-shadow: -6px 0 20px rgba(0,0,0,0.15)
+}
 .nuxt-link-exact-active {
   color: #F67280
 }
