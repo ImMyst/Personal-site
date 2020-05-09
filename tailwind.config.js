@@ -19,7 +19,7 @@ module.exports = {
     }
   },
   corePlugins: {
-    container: false,
+    container: false
   },
   variants: {
     fill: ['responsive', 'hover', 'focus']
