@@ -4,16 +4,27 @@
       <nuxt-link class="focus:outline-none focus:shadow-outline" to="/">
         <Logo />
       </nuxt-link>
-      <button class="block px-1 focus:outline-none text-gray-400 hover:text-white z-10" type="button" @click="$store.commit('toggleMenu')">
+      <button
+        class="block px-1 focus:outline-none text-gray-400 hover:text-white z-10"
+        type="button"
+        @click="$store.commit('toggleMenu')"
+      >
         <BurgerMenu v-if="!$store.state.isMenuOpen" />
         <Close v-else />
       </button>
     </div>
     <div class="gradient-background fixed w-full">
-      <div v-if="$store.state.isMenuOpen" class="min-h-screen flex flex-col justify-center items-center text-center mx-auto -mt-16">
+      <div
+        v-if="$store.state.isMenuOpen"
+        class="min-h-screen flex flex-col justify-center items-center text-center mx-auto -mt-16"
+      >
         <ul class="text-gray-100 font-semibold text-4xl">
           <li v-for="menu in headerLinks" :key="menu.name">
-            <nuxt-link class="hover:text-secondary-red focus:text-secondary-red focus:outline-none focus:shadow-outline cursor-pointer p-6 inline-block" :to="`${menu.link}`" @click.native="$store.commit('toggleMenu')">
+            <nuxt-link
+              class="hover:text-secondary-red focus:text-secondary-red focus:outline-none focus:shadow-outline cursor-pointer p-6 inline-block"
+              :to="`${menu.link}`"
+              @click.native="$store.commit('toggleMenu')"
+            >
               {{ menu.name }}
             </nuxt-link>
           </li>
@@ -63,8 +74,7 @@ export default {
           name: 'contact',
           link: '/contact'
         }
-      ],
-      isMenuOpen: false
+      ]
     }
   }
 }
@@ -72,11 +82,11 @@ export default {
 
 <style scoped>
 .bottom-shadow {
-  -webkit-box-shadow: 0 -6px 20px rgba(0,0,0,0.15);
-  -moz-box-shadow: 0 -6px 20px rgba(0,0,0,0.15);
-    box-shadow: -6px 0 20px rgba(0,0,0,0.15)
+  -webkit-box-shadow: 0 -6px 20px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 -6px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: -6px 0 20px rgba(0, 0, 0, 0.15);
 }
 .nuxt-link-exact-active {
-  color: #F67280
+  color: #f67280;
 }
 </style>
