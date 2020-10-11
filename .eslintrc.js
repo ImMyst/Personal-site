@@ -17,9 +17,6 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
-    'vue/max-attributes-per-line': 'off',
-    'no-trailing-spaces': 'error',
-    'quotes': ['error', 'single'],
-    'semi': 0
+    'vue/max-attributes-per-line': 'off'
   }
 }

@@ -1,33 +1,28 @@
 <template>
-  <div class="h-screen flex justify-center items-center text-center mx-auto">
-    <div class="block">
-      <div class="flex justify-center">
-        <img
-          src="/img/titouan-image.jpg"
-          alt="Titouan Galvani image"
-          class="rounded-full border-2 border-solid border-accent-purple w-40"
-        >
-      </div>
-      <h1
-        class="text-gray-100 text-6xl font-semibold leading-none text-shadow pt-16"
+  <div class="mx-auto">
+    <div class="flex flex-col justify-start items-center text-center my-16 mb-32 h-full mx-8 md:justify-center md:ml-20 md:items-start md:h-screen md:my-0 md:text-left lg:ml-32 xl:ml-64">
+      <img
+        src="/img/titouan-image.jpg"
+        alt="Titouan Galvani image"
+        class="md:hidden rounded-full border-2 border-solid border-primary w-24 mb-10"
       >
-        Titouan <span class="text-secondary-red">Galvani</span>
+      <!-- Titre -->
+      <h1 class="text-primary text-7xl font-extrabold font-calibre leading-none md:text-8xl md:leading-none">
+        Titouan Galvani.
       </h1>
-      <div class="text-gray-300 text-3xl leading-snug pt-8 mt-6">
-        <p>
-          Développeur web
-        </p>
-        <p>
-          Front end
-        </p>
-      </div>
-      <div class="pt-12">
-        <nuxt-link
-          to="/about"
-          class="inline-block border border-solid border-secondary-red rounded-full py-1 hover:bg-secondary-red"
-        >
-          <span class="text-gray-100 uppercase text-2xl font-semibold px-4">Qui suis-je ?</span>
-        </nuxt-link>
+      <!-- Description -->
+      <h2 class="text-accent text-5xl font-calibre-medium leading-none mt-8 md:text-6xl md:mt-2 lg:text-7xl">
+        Développeur front end.
+      </h2>
+      <!-- Body et longue description -->
+      <p class="text-text text-lg mt-6 font-calibre md:w-full md:text-xl lg:w-3/4 xl:w-3/5">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam natus nesciunt aut omnis amet rerum nostrum odio nulla. Sit nobis facere a, cumque voluptatum ab facilis? Natus, rem eaque. Temporibus facere, soluta cumque quas voluptas voluptate aspernatur, qui earum quibusdam reiciendis veritatis natus nostrum voluptatem officia, unde autem aliquid hic inventore ducimus pariatur consectetur.
+      </p>
+      <!-- Bouton Call To Action -->
+      <div class="mt-10">
+        <NuxtLink to="/contact" class="button button--primary">
+          Me Contacter
+        </NuxtLink>
       </div>
     </div>
   </div>

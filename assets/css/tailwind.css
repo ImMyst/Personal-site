@@ -2,19 +2,80 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-.gradient-background {
-  background: linear-gradient(
-    165deg,
-    rgba(53, 92, 125, 1) 0%,
-    rgba(53, 92, 125, 1) 60%,
-    rgba(108, 91, 123, 1) 90%
-  );
+/* Buttons */
+
+@layer components {
+  .button {
+    @apply inline-block border-2 border-solid rounded py-4 px-6 text-center text-xl text-text transition duration-200 ease-in-out;
+  }
+  .button--primary {
+    @apply  border-primary hover:bg-primary hover:bg-opacity-10 active:bg-opacity-25;
+  }
+}
+
+/* Background */
+
+.background {
+  background-color: #081121;
+  background-image:
+    radial-gradient(
+      circle at top right,
+      #fdb0b0,
+      #383a3d,
+      #1e2635,
+      #081121 20%
+    );
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.text-shadow {
-  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+
+/* Fonts */
+
+@font-face {
+  font-family: "Calibre-Black";
+  src: local("Calibre-Black"),
+    url(~assets/fonts/Calibre/Calibre-Black.ttf) format("truetype"),
+    url(~assets/fonts/Calibre/Calibre-Black.eot) format("truetype");
 }
-.container {
-  padding: 6rem 2.5rem;
+
+@font-face {
+  font-family: "Calibre-Bold";
+  src: local("Calibre-Bold"),
+    url(~assets/fonts/Calibre/Calibre-Bold.ttf) format("truetype"),
+    url(~assets/fonts/Calibre/Calibre-Bold.eot) format("truetype");
+}
+
+@font-face {
+  font-family: "Calibre-Light";
+  src: local("Calibre-Light"),
+    url(~assets/fonts/Calibre/Calibre-Light.ttf) format("truetype"),
+    url(~assets/fonts/Calibre/Calibre-Light.eot) format("truetype");
+}
+
+@font-face {
+  font-family: "Calibre-Medium";
+  src: local("Calibre-Medium"),
+    url(~assets/fonts/Calibre/Calibre-Medium.ttf) format("truetype"),
+    url(~assets/fonts/Calibre/Calibre-Medium.eot) format("truetype");
+}
+
+@font-face {
+  font-family: "Calibre";
+  src: local("Calibre"),
+    url(~assets/fonts/Calibre/Calibre-Regular.ttf) format("truetype"),
+    url(~assets/fonts/Calibre/Calibre-Regular.eot) format("truetype");
+}
+
+@font-face {
+  font-family: "Calibre-Semibold";
+  src: local("Calibre-Semibold"),
+    url(~assets/fonts/Calibre/Calibre-Semibold.ttf) format("truetype"),
+    url(~assets/fonts/Calibre/Calibre-Semibold.eot) format("truetype");
+}
+
+@font-face {
+  font-family: "Calibre-Thin";
+  src: local("Calibre-Thin"),
+    url(~assets/fonts/Calibre/Calibre-Thin.ttf) format("truetype"),
+    url(~assets/fonts/Calibre/Calibre-Thin.eot) format("truetype");
 }

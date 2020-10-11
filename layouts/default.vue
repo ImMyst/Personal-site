@@ -1,18 +1,22 @@
 <template>
-  <div class="font-sans antialiased gradient-background h-screen">
-    <Header />
-    <nuxt />
-    <Footer />
+  <div class="font-calibre antialiased text-text">
+    <TheHeader />
+    <Nuxt class="h-full" />
   </div>
 </template>
 
-<script>
-import Header from '~/components/Header'
-import Footer from '~/components/Footer'
-export default {
-  components: {
-    Header,
-    Footer
-  }
+<style>
+body {
+  background-color: #081121;
+  background-image:
+    radial-gradient(
+      circle at top right,
+      #fdb0b0,
+      #383a3d,
+      #1e2635,
+      #081121 20%
+    );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-</script>
+</style>
