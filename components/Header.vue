@@ -55,7 +55,7 @@ export default {
     BurgerMenu,
     Close
   },
-  data() {
+  data () {
     return {
       headerLinks: [
         {
@@ -74,8 +74,7 @@ export default {
           name: 'contact',
           link: '/contact'
         }
-      ],
-      isMenuOpen: false
+      ]
     }
   }
 }

@@ -6,7 +6,7 @@
           src="/img/titouan-image.jpg"
           alt="Titouan Galvani image"
           class="rounded-full border-2 border-solid border-accent-purple w-40"
-        />
+        >
       </div>
       <h1
         class="text-gray-100 text-6xl font-semibold leading-none text-shadow pt-16"
@@ -26,9 +26,7 @@
           to="/about"
           class="inline-block border border-solid border-secondary-red rounded-full py-1 hover:bg-secondary-red"
         >
-          <span class="text-gray-100 uppercase text-2xl font-semibold px-4"
-            >Qui suis-je ?</span
-          >
+          <span class="text-gray-100 uppercase text-2xl font-semibold px-4">Qui suis-je ?</span>
         </nuxt-link>
       </div>
     </div>
@@ -37,12 +35,12 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       title: 'Titouan Galvani | Accueil'
     }
   },
-  head() {
+  head () {
     return {
       title: this.title,
       meta: [
@@ -50,7 +48,7 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-            "Hi I'm currently rebuilding this website, which is my personal one. Wait a little and it will be finished. (I hope before christmas)"
+            'Hi I\'m currently rebuilding this website, which is my personal one. Wait a little and it will be finished. (I hope before christmas)'
         }
       ]
     }
