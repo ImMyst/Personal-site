@@ -7,8 +7,8 @@
     <div class="relative mt-24">
       <ButtonMain
         text="Work in Progress"
-        @mouseover.native="displayGithubTip"
-        @mouseleave.native="removeGithubTip"
+        @mouseover.native="displayTip"
+        @mouseleave.native="removeTip"
       />
       <Tip
         v-if="tipText"
@@ -27,10 +27,10 @@ export default {
     };
   },
   methods: {
-    displayGithubTip() {
+    displayTip() {
       this.tipText = 'I hope before 2026 !';
     },
-    removeGithubTip() {
+    removeTip() {
       this.tipText = '';
     },
   },
