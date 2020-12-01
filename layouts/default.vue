@@ -1,6 +1,6 @@
 <template>
   <div
-    class="min-h-screen flex justify-center items-center text-center bg-primary-black"
+    class="min-h-screen flex justify-center items-center text-center antialiased bg-primary-black"
   >
     <Nuxt />
   </div>
