@@ -1,22 +1,12 @@
 module.exports = {
-  purge: [
-    './components/**/*.{vue,js}',
-    './layouts/**/*.vue',
-    './pages/**/*.vue',
-    './plugins/**/*.{js,ts}',
-    './nuxt.config.{js,ts}',
-  ],
-  darkMode: false, // or 'media' or 'class'
+  purge: [],
+  darkMode: 'media', // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
         'primary-black': '#0A0A0A',
         'primary-white': '#FCFCFC',
         'accent-grey': '#8A8A8A',
-      },
-      fontSize: {
-        '7xl': '5rem',
-        '8xl': '6rem',
       },
       animation: {
         'fade-in': 'fade-in 0.2s',
@@ -41,12 +31,11 @@ module.exports = {
         },
       },
     },
-    variants: {
+  },
+  variants: {
+    extend: {
       borderWidth: ['responsive', 'hover', 'focus'],
     },
-    plugins: [],
-    experimental: {
-      applyComplexClasses: true,
-    },
   },
+  plugins: [],
 };
