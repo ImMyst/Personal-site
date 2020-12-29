@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-8xl text-primary-white leading-none font-bold">
+    <h1 class="text-8xl text-white leading-none font-bold">
       <p>Titouan</p>
       <p>Galvani</p>
     </h1>
@@ -36,5 +36,3 @@ export default {
   },
 };
 </script>
-
-<style></style>
