@@ -1,11 +1,12 @@
 module.exports = {
   purge: [],
-  darkMode: 'media', // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
         'primary-black': '#0A0A0A',
         'primary-white': '#FCFCFC',
+        'primary-lightgray': '#BBBBBB',
         'accent-grey': '#8A8A8A',
       },
       animation: {
