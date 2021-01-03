@@ -31,7 +31,13 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/color-mode',
   ],
+
+  colorMode: {
+    // remove -mode suffix for Tailwind Dark mode support
+    classSuffix: '',
+  },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [],
