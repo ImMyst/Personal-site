@@ -8,6 +8,7 @@ module.exports = {
         'primary-black': '#0A0A0A',
         'primary-white': '#FCFCFC',
         'primary-lightgray': '#BBBBBB',
+        'primary-darkgray': '#676767',
         'accent-grey': '#8A8A8A',
       },
       boxShadow: {
